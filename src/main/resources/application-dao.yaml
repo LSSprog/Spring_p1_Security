@@ -1,4 +1,4 @@
 spring:
   flyway:
     enabled: true
-    locations: classpath:/db/dao
+    locations: classpath:/db/migration/dao

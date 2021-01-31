@@ -1,4 +1,4 @@
-package entities;
+package spring.security.entities;
 
 import lombok.Data;
 
