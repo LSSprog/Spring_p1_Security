@@ -10,7 +10,7 @@ import spring.security.repositories.ScoreRepository;
 import java.util.Optional;
 
 @Service
-@Profile("dao")
+//@Profile("dao")
 @RequiredArgsConstructor
 public class ScoreService {
     private final ScoreRepository scoreRepository;

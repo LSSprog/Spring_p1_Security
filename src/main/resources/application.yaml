@@ -16,8 +16,11 @@ spring:
     username: sa
     password:
   flyway:
-    enabled: false
+#    enabled: false
 #    driver-class-name: org.postgresql.Driver
 #    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=sec
 #    username: postgres
 #    password: admin
+
+    enabled: true
+    locations: classpath:/db/migration/dao

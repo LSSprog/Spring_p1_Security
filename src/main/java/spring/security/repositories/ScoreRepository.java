@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-@Profile("dao")
+//@Profile("dao")
 public interface ScoreRepository extends CrudRepository<Score, Integer> {
 
 

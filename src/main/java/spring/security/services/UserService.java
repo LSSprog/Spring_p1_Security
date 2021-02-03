@@ -13,7 +13,7 @@ import spring.security.repositories.UserRepository;
 import java.util.Optional;
 
 @Service
-@Profile("dao")
+//@Profile("dao")
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
     private final UserRepository userRepository;

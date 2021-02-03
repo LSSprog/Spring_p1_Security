@@ -5,11 +5,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping("/")
 public class MainController {
 
-    @GetMapping
+    @GetMapping ("/home")
     public String homePage() {
         return "HOME";
     }
+
+    @GetMapping ("/dao")
+    public String daoPage() {
+        return "DAO";
+    }
+
 }
